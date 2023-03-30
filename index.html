@@ -1,0 +1,68 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <!-- CSS only -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,300&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+    rel="stylesheet"
+  />
+
+  <script
+    src="https://kit.fontawesome.com/489da60058.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="src/styles.css" />
+
+  <title>Weather App</title>
+</head>
+  <body>
+    <div class="box">
+      <div class="container">
+        <form id="search-form">
+          <label for="name"  class="position"> Search City </label>
+          <input
+            id="search-text-input"
+            type="text"
+            name="name"
+            id="name"
+            required
+          />
+          <input type="submit" value="search" id="Search" placeholder="Search" />
+          <button>Current</button>
+        </form>
+      </div>
+
+      <h3> Monday March 20th, 2023 11:57 pm</h3>
+      <br />
+			<h1 id="city">Tehran, Iran</h1>
+			<li class="stylee"> clear </li>
+
+      <p><span id="descrip"> </span> <span id="temperature"></span></p>
+      <li class= "style">Humidity:26% <span id="humidity"></span> </li>
+			<li class="style" >Wind:24km/h <span id="wind"></span> </li>
+				<li class="style"> Precipitation: 0% <span id="Precipitation"></span> </li>
+      </div>
+      
+     
+
+    <script src="src/index.js"></script>
+  
+
+  </body>
+</html>
