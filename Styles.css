@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+  }
+  .box {
+    background-color: lightgray;
+    width: 700px;
+    border: 15px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+  }
+  
+  H1,
+  h3 {
+    color: black;
+    font-family: calibri;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  h3 {
+    font-size: 22px;
+  }
+  
+  .position{
+    margin-left: -15px;
+  }
+  
+  .temp {
+    font-size: 22px;
+  }
+  
+  p {
+    font-size: 20px;
+    font-family: "Fira Sans", sans-serif;
+    color: black;
+  }
+  
+  .days,
+  .temp {
+    color: black;
+    font-family: "Fira Sans", sans-serif;
+  }
+  
+  .code {
+    font-family: sans-serif;
+    font-size: 8px;
+    text-align: center;
+  }
+  .style {
+    list-style: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .stylee {
+    list-style:none;
+    margin-top: -10px;
+    font-weight: bold;
+  }
